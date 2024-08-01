@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="header">
+        <input type="search" name="country" placeholder="City Name" id="city" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="mid">
+        <img class="main-image" src="./images/sun.png" alt="" />
+        <h1 class="temperature">Temperature</h1>
+        <h1 class="cityname">cityname</h1>
+      </div>
+      <div class="footer">
+        <div class="hum-sec">
+          <img class="humidity" src="./images/humidity.png" alt="" />
+          <p class="humidity-details">loading..</p>
+          <h3>humidity</h3>
+        </div>
+        <div class="wind-sec">
+          <img class="wind" src="./images/wind.png" alt="" />
+
+          <p class="wind-details">loading..</p>
+          <h4>windspeed</h4>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

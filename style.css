@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+  margin: 50px;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+input {
+  position: relative;
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  height: 60px;
+  width: 400px;
+  border-radius: 4px;
+  text-align: center;
+}
+.fa-solid {
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  top: 25px;
+  color: #ccc;
+}
+.main-image {
+  height: 100px;
+}
+.wind,
+.humidity {
+  height: 40px;
+}
+/* button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+} */
